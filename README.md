@@ -1,11 +1,11 @@
-# PHPRise <Repository>
+# PHPRise http-contract
 
-<Description Of Repository>
+The HTTP contract applying the OTAKU philosophy and following the PSR-12, PSR-7, PSR-18, and PSR-14.
 
 ## Installation
 
 ```bash
-composer require phprise/<repository>
+composer require phprise/http-contract
 ```
 
 ## Usage

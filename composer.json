@@ -1,0 +1,28 @@
+{
+    "name": "phprise/http-contract",
+    "description": "The HTTP contract applying the OTAKU philosophy and following the PSR-12, PSR-7, PSR-18, and PSR-14.",
+    "type": "library",
+    "require": {
+        "phprise/common-value-object": "^1.0",
+        "phprise/data-transfer-object": "^1.1",
+        "psr/http-message": "^2.0",
+        "php": "^8.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^12.5",
+        "vimeo/psalm": "^6.14"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Phprise\\HttpContract\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "João Ricardo",
+            "email": "joaoricardomoura99@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
