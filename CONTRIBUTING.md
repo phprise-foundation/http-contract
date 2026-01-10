@@ -1,6 +1,6 @@
-# Contributing to PHPRise http-contract
+# Contributing to PHPRise HTTP Contract
 
-Thank you for considering contributing to PHPRise http-contract! The contribution guidelines are as follows:
+Thank you for considering contributing to PHPRise HTTP Contract! The contribution guidelines are as follows:
 
 ## Code of Conduct
 

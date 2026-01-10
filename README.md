@@ -1,6 +1,8 @@
-# PHPRise http-contract
+# PHPRise HTTP Contract
 
-The HTTP contract applying the OTAKU philosophy and following the PSR-12, PSR-7, PSR-18, and PSR-14.
+This is an [Atomic Repository](PHILOSOPHY.md#1-atomic-repositories-the-atom) based on the [OTAKU Manifesto](PHILOSOPHY.md).
+
+The objective of this repository is to provide a standardized set of HTTP request interfaces for the PHPRise ecosystem, ensuring consistent behavior across different connectors and adapters.
 
 ## Installation
 
@@ -10,7 +12,22 @@ composer require phprise/http-contract
 
 ## Usage
 
-<Describe Usage>
+These interfaces define the structure for specialized HTTP requests (Store, Update, List, etc.).
+
+```php
+use Phprise\Http\Contract\StoreRequestInterface;
+use Phprise\DataTransferObject\TransferObjectInterface;
+
+class MyStoreRequest implements StoreRequestInterface
+{
+    public function payload(): TransferObjectInterface
+    {
+        // implementation
+    }
+
+    // ... Psr\Http\Message\RequestInterface implementation
+}
+```
 
 
 ## Philosophy

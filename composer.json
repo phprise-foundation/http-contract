@@ -1,6 +1,6 @@
 {
     "name": "phprise/http-contract",
-    "description": "The HTTP contract applying the OTAKU philosophy and following the PSR-12, PSR-7, PSR-18, and PSR-14.",
+    "description": "This is an Atomic Repository based on the OTAKU Manifesto.",
     "type": "library",
     "require": {
         "phprise/common-value-object": "^1.0",
@@ -15,10 +15,14 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Phprise\\HttpContract\\": "src/"
+            "Phprise\\Http\\Contract\\": "src/"
         }
     },
     "authors": [
+        {
+            "name": "Esdras Schonevald",
+            "email": "esdras.schonevald@gmail.com"
+        },
         {
             "name": "João Ricardo",
             "email": "joaoricardomoura99@gmail.com"
